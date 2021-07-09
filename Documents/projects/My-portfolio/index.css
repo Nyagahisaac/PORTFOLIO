@@ -17,9 +17,9 @@ nav{
     justify-content: space-between;
     background-color:#fff ;
     box-shadow:  2px 2px 1px rgba(0,0,0,0.2);
-    height:60px ;
+    height:50px ;
     align-items: center;
-    padding: 5% 0 5%;
+    padding:50px;
     /* text-decoration: none; */
 }
 nav ul li {
@@ -46,7 +46,7 @@ ul li a{
 }
 /* home  */
 #home{
-    background-image: url();
+    background-image: url(./images/test.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -216,7 +216,7 @@ ul li a{
     justify-content:center;
     flex-direction:flex;
     margin: 20px;
-     box-shadow: 12px 20px 12px rgba(0,0,0,0.3); 
+     box-shadow: 12px 12px 12px rgba(0,0,0,0.3); 
     display:center; 
     
     
@@ -258,7 +258,7 @@ ul li a{
 .box-3 span{
     width: 40px;
     border-radius: 50%;
-    background-color:#ffffff;
+    /* background-color:#ffffff; */
     display:flex ;
     justify-content: center;
     align-items: center;
@@ -270,7 +270,7 @@ ul li a{
     font-size: 15px;
     line-height:19px ;
     text-align: center;
-    color: #fff;
+    color:#8f8f8f;
     font-family: calibri;
     
 }
@@ -292,25 +292,25 @@ ul li a{
     width: 230px;
 }
 
-
-.box-1 p:nth-child(1,
+/* 
+.box-1 p:nth-child(1),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(3){
     color:#ffffff;
     font-family:calibri;
-    font-size: 25px;
+    font-size: 20px;
     line-height:15px ;
-}
-.box-1 p:nth-child(1),
+} */
+/* .box-1 p:nth-child(1),
 .box-2 p:nth-child(2),
-.box-3 p:nth-child(3){
-    font-family:calibri;
+.box-3 p:nth-child(3){ */
+    /* font-family:calibri;
     text-align:center;
     width: 200px;
-    /* margin:10px 10px 20px 0px; */
-    /* color: #8f8f8f; */
+    margin:10px 10px 20px 0px;
+    color: #8f8f8f; */
 
-} 
+
 .box-1 button,
 .box-2 button,
 .box-3 button{
@@ -323,5 +323,66 @@ ul li a{
 }
 .box-1 button{
     margin-left: 50px;
-}    
-   
+} 
+.contact-me{
+    width: 100%;
+    height: 280px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9lMYMQMhxHOCWfmL9VbxYuFWVxkmd65t4vQ&usqp=CAU);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 30px;
+
+}
+.contact-me p{
+    color: #fff;
+    color:#ffffff;
+    font-size:30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: #ffffff 2px solid;
+
+}
+input{
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+    background-color:#fff;
+}
+.social-icons a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    justify-content:center;
+    /* padding: 10px; */
+    text-align: center;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
+
+}
+#copyright{
+    font-size: 20px;
+  
+}
+.social-icons i{
+    color: #000000;
+}
+.social-icons a:hover{
+    background-color: #000000;
+    box-shadow: 12px 20px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+
