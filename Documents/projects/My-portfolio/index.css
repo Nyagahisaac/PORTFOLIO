@@ -164,3 +164,47 @@ ul li a{
 
 }
 /* services */
+#services{
+    color:gray;
+    font-weight: bolder;
+    /* line-height: 25px; */
+    margin-top: 100px;
+    
+}
+.services-text p:nth-child(1){
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #403e3e;
+    line-height: 20px;
+
+}
+.services-text p:nth-child(2){
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #3e3e3d ;
+    line-height: 20px;
+
+}
+.services-text p:nth-child(3){
+    color: #7e7d7d;
+    font-family: "Poppins" , sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    align-items: center;
+} 
+/* skills */
+.skills-text{
+    background-color: #fff;
+    
+    justify-content:center; 
+
+}
+.skills-text p:nth-child(1){
+    font-size: 45px;
+    font-weight: bold;
+    font-family: serif;
+    color: grey;
+    /* margin-top: 30px;*/
+} 
+.
