@@ -51,3 +51,29 @@ ul li a{
     width: 100% 100%;
     height: 100vh;
 }
+.home-text p{
+    font-size: 45px;
+    line-height: 55px;
+    margin-left: 10px;
+    color: #403e3e;
+}
+.home-text p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 25px;
+}
+.home-text p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
