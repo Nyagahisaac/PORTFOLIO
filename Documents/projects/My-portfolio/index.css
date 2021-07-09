@@ -216,7 +216,7 @@ ul li a{
     justify-content:center;
     flex-direction:flex;
     margin: 20px;
-    box-shadow: 12px 20px 12px rgba(0,0,0,0.3);
+     box-shadow: 12px 20px 12px rgba(0,0,0,0.3); 
     display:center; 
     
     
@@ -226,6 +226,7 @@ ul li a{
 .box{
     display: flex;
     justify-content: space-between;
+    /* background-color:red; */
     
 }
 .box-1 {
@@ -233,6 +234,7 @@ ul li a{
     height: 320px;
     padding: 5px;
     margin-left: 10px;
+    
     
 }
 .box-3{
@@ -266,9 +268,9 @@ ul li a{
 }
 .box-1 p{
     font-size: 15px;
-    line-height:20px ;
+    line-height:19px ;
     text-align: center;
-    color: #8f8f8f;
+    color: #fff;
     font-family: calibri;
     
 }
@@ -283,7 +285,7 @@ ul li a{
 }
 .box-3{
     font-size: 15px;
-    line-height:20px ;
+    line-height:18px ;
     text-align: center;
     color: #8f8f8f;
     font-family: calibri;
@@ -291,22 +293,22 @@ ul li a{
 }
 
 
-.box-1 p:nth-child(1),
+.box-1 p:nth-child(1,
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(3){
     color:#ffffff;
     font-family:calibri;
-    font-size: 15px;
-    line-height:20px ;
+    font-size: 25px;
+    line-height:15px ;
 }
 .box-1 p:nth-child(1),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(3){
     font-family:calibri;
     text-align:center;
-    width: 230px;
-    margin:10px 10px 20px 0px;
-    color: #8f8f8f;
+    width: 200px;
+    /* margin:10px 10px 20px 0px; */
+    /* color: #8f8f8f; */
 
 } 
 .box-1 button,
